@@ -1,0 +1,10 @@
+.idea
+.venv
+dist
+build
+wheelhouse/
+*.egg-info/
+.tox
+*.deb
+doc/_build/
+__pycache__
