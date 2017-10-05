@@ -8,3 +8,4 @@ wheelhouse/
 *.deb
 doc/_build/
 __pycache__
+.cache

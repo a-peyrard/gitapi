@@ -34,10 +34,10 @@ pylint-full: check-coding-style
 		$(PYLINT) $(PYTHON_MODULES)
 
 test: check-coding-style
-		$(PYTEST) $(PYTHON_MODULES)
+		$(PYTEST)
 
 check:
-		$(PYTEST) $(PYTHON_MODULES)
+		$(PYTEST)
 
 run:
 		$(PYTHON) gitapi/main.py
